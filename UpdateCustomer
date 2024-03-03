@@ -1,0 +1,14 @@
+namespace UpdateCount
+{
+    public class CustomerValidation
+    {
+        public string ValidateCustomer(long Accountid)
+
+        {
+            if (Accountid >= 0)
+                return "ValidID";
+            else
+                return "InvalidID";
+        }
+    }
+}
